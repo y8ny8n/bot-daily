@@ -1,0 +1,36 @@
+name: bot-daily-summary
+
+# 매일 06:00 KST(=21:00 UTC 전날)에 봇 요약을 만들어 이 저장소에 커밋한다.
+# Cowork 예약 브리핑(07:08 KST)이 raw 로 읽으므로 그 전에 끝나야 한다(약 68분 여유).
+on:
+  schedule:
+    - cron: "0 21 * * *"
+  workflow_dispatch: {}   # 버튼으로 수동 실행도 가능
+
+permissions:
+  contents: write   # bot_summary 커밋용
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 봇 요약 생성 (db.hap-py.us 조회 — GitHub 러너는 잘 뚫림)
+        run: python make_bot_summary.py
+
+      - name: 변경 있으면 커밋
+        run: |
+          git config user.name "bot-daily"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bot_summary.json bot_summary.md
+          if git diff --cached --quiet; then
+            echo "변경 없음 — 커밋 스킵"
+          else
+            git commit -m "daily bot summary $(date -u +%F)"
+            git push
+          fi
