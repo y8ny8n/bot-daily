@@ -29,8 +29,8 @@ def q(sql):
     })
     with urllib.request.urlopen(req, timeout=20) as r:
         body = json.loads(r.read().decode("utf-8"))
-    cols = body.get("columns", [])
-    return [dict(zip(cols, row)) for row in body.get("rows", [])]
+    # _shape=array 는 이미 dict(컬럼명:값) 리스트를 반환한다
+    return body
 
 
 def is_kr(symbol):
