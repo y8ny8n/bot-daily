@@ -17,9 +17,17 @@ KST = timezone(timedelta(hours=9))
 
 
 def q(sql):
-    """Datasette 에 SQL 을 던져 rows 를 dict 리스트로 반환."""
-    url = BASE + "?" + urllib.parse.urlencode({"sql": sql})
-    with urllib.request.urlopen(url, timeout=20) as r:
+    """Datasette 에 SQL 을 던져 rows 를 dict 리스트로 반환.
+
+    Cloudflare 가 기본 python-urllib 요청을 봇으로 보고 403 을 주므로 브라우저 UA 를 붙인다.
+    """
+    url = BASE + "?" + urllib.parse.urlencode({"sql": sql, "_shape": "array"})
+    req = urllib.request.Request(url, headers={
+        "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                       "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"),
+        "Accept": "application/json",
+    })
+    with urllib.request.urlopen(req, timeout=20) as r:
         body = json.loads(r.read().decode("utf-8"))
     cols = body.get("columns", [])
     return [dict(zip(cols, row)) for row in body.get("rows", [])]
