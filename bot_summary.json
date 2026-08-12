@@ -1,87 +1,115 @@
 {
-  "generated_at": "2026-08-12 06:34 KST",
-  "as_of_trading_day": "2026-08-12",
+  "generated_at": "2026-08-13 06:34 KST",
+  "as_of_trading_day": "2026-08-13",
   "mode": "live",
   "regime": "IDLE",
-  "held": 29,
+  "held": 30,
   "kill_switch": 0,
-  "total_pnl": -78608.0,
-  "day_change": 4029,
-  "win_rate": 42.3,
-  "open_positions": 37,
+  "total_pnl": -46248.0,
+  "day_change": 2855,
+  "win_rate": 42.7,
+  "open_positions": 40,
   "skipped_kr": {
-    "verdict": "캡 때문에 기회 놓침 (못 산 종목 평균 상승)",
+    "verdict": "캡이 손실을 막아줌 (못 산 종목 평균 하락)",
     "agg": {
-      "count": 7,
-      "up": 4,
-      "down": 3,
-      "avg_pct": 0.08,
+      "count": 11,
+      "up": 5,
+      "down": 6,
+      "avg_pct": -0.85,
       "worst": {
-        "symbol": "013360",
+        "symbol": "058730",
         "market": "KR",
-        "signal_price": 1678.0,
-        "last_price": 1620.0,
-        "change_pct": -3.46
+        "signal_price": 4035.0,
+        "last_price": 3810.0,
+        "change_pct": -5.58
       },
       "best": {
-        "symbol": "214370",
+        "symbol": "475830",
         "market": "KR",
-        "signal_price": 63100.0,
-        "last_price": 66300.0,
-        "change_pct": 5.07
+        "signal_price": 64600.0,
+        "last_price": 65300.0,
+        "change_pct": 1.08
       }
     },
     "rows": [
       {
-        "symbol": "013360",
+        "symbol": "058730",
         "market": "KR",
-        "signal_price": 1678.0,
-        "last_price": 1620.0,
-        "change_pct": -3.46
+        "signal_price": 4035.0,
+        "last_price": 3810.0,
+        "change_pct": -5.58
       },
       {
-        "symbol": "111710",
+        "symbol": "174900",
         "market": "KR",
-        "signal_price": 3515.0,
-        "last_price": 3400.0,
-        "change_pct": -3.27
+        "signal_price": 31350.0,
+        "last_price": 30550.0,
+        "change_pct": -2.55
       },
       {
-        "symbol": "006110",
+        "symbol": "014910",
         "market": "KR",
-        "signal_price": 52000.0,
-        "last_price": 51700.0,
-        "change_pct": -0.58
+        "signal_price": 1999.0,
+        "last_price": 1962.0,
+        "change_pct": -1.85
       },
       {
-        "symbol": "144960",
+        "symbol": "024840",
         "market": "KR",
-        "signal_price": 11830.0,
-        "last_price": 11900.0,
-        "change_pct": 0.59
+        "signal_price": 5660.0,
+        "last_price": 5580.0,
+        "change_pct": -1.41
       },
       {
-        "symbol": "290650",
+        "symbol": "179900",
         "market": "KR",
-        "signal_price": 62000.0,
-        "last_price": 62600.0,
-        "change_pct": 0.97
+        "signal_price": 2255.0,
+        "last_price": 2230.0,
+        "change_pct": -1.11
       },
       {
-        "symbol": "009830",
+        "symbol": "323280",
         "market": "KR",
-        "signal_price": 36050.0,
-        "last_price": 36500.0,
-        "change_pct": 1.25
+        "signal_price": 49500.0,
+        "last_price": 49500.0,
+        "change_pct": 0.0
       },
       {
-        "symbol": "214370",
+        "symbol": "397030",
         "market": "KR",
-        "signal_price": 63100.0,
-        "last_price": 66300.0,
-        "change_pct": 5.07
+        "signal_price": 28350.0,
+        "last_price": 28400.0,
+        "change_pct": 0.18
+      },
+      {
+        "symbol": "046970",
+        "market": "KR",
+        "signal_price": 5110.0,
+        "last_price": 5130.0,
+        "change_pct": 0.39
+      },
+      {
+        "symbol": "257720",
+        "market": "KR",
+        "signal_price": 45050.0,
+        "last_price": 45300.0,
+        "change_pct": 0.55
+      },
+      {
+        "symbol": "100090",
+        "market": "KR",
+        "signal_price": 14360.0,
+        "last_price": 14490.0,
+        "change_pct": 0.91
+      },
+      {
+        "symbol": "475830",
+        "market": "KR",
+        "signal_price": 64600.0,
+        "last_price": 65300.0,
+        "change_pct": 1.08
       }
     ]
   },
-  "skipped_all_count": 10
+  "skipped_all_count": 12
 }
