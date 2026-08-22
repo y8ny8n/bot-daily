@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22 06:14 KST",
+  "generated_at": "2026-08-23 06:12 KST",
   "as_of_trading_day": "2026-08-22",
   "mode": "live",
   "regime": "IDLE",
@@ -10,127 +10,9 @@
   "win_rate": 43.5,
   "open_positions": 39,
   "skipped_kr": {
-    "verdict": "캡이 손실을 막아줌 (못 산 종목 평균 하락)",
-    "agg": {
-      "count": 14,
-      "up": 5,
-      "down": 9,
-      "avg_pct": -0.91,
-      "worst": {
-        "symbol": "002990",
-        "market": "KR",
-        "signal_price": 16380.0,
-        "last_price": 14750.0,
-        "change_pct": -9.95
-      },
-      "best": {
-        "symbol": "124500",
-        "market": "KR",
-        "signal_price": 30850.0,
-        "last_price": 32700.0,
-        "change_pct": 6.0
-      }
-    },
-    "rows": [
-      {
-        "symbol": "002990",
-        "market": "KR",
-        "signal_price": 16380.0,
-        "last_price": 14750.0,
-        "change_pct": -9.95
-      },
-      {
-        "symbol": "228340",
-        "market": "KR",
-        "signal_price": 3060.0,
-        "last_price": 2920.0,
-        "change_pct": -4.58
-      },
-      {
-        "symbol": "001510",
-        "market": "KR",
-        "signal_price": 3005.0,
-        "last_price": 2920.0,
-        "change_pct": -2.83
-      },
-      {
-        "symbol": "035720",
-        "market": "KR",
-        "signal_price": 36550.0,
-        "last_price": 35800.0,
-        "change_pct": -2.05
-      },
-      {
-        "symbol": "064290",
-        "market": "KR",
-        "signal_price": 33000.0,
-        "last_price": 32400.0,
-        "change_pct": -1.82
-      },
-      {
-        "symbol": "327260",
-        "market": "KR",
-        "signal_price": 33450.0,
-        "last_price": 33100.0,
-        "change_pct": -1.05
-      },
-      {
-        "symbol": "053260",
-        "market": "KR",
-        "signal_price": 5430.0,
-        "last_price": 5380.0,
-        "change_pct": -0.92
-      },
-      {
-        "symbol": "077360",
-        "market": "KR",
-        "signal_price": 9390.0,
-        "last_price": 9330.0,
-        "change_pct": -0.64
-      },
-      {
-        "symbol": "126730",
-        "market": "KR",
-        "signal_price": 18570.0,
-        "last_price": 18470.0,
-        "change_pct": -0.54
-      },
-      {
-        "symbol": "032580",
-        "market": "KR",
-        "signal_price": 3915.0,
-        "last_price": 3920.0,
-        "change_pct": 0.13
-      },
-      {
-        "symbol": "237690",
-        "market": "KR",
-        "signal_price": 99400.0,
-        "last_price": 99700.0,
-        "change_pct": 0.3
-      },
-      {
-        "symbol": "307180",
-        "market": "KR",
-        "signal_price": 5860.0,
-        "last_price": 6000.0,
-        "change_pct": 2.39
-      },
-      {
-        "symbol": "457370",
-        "market": "KR",
-        "signal_price": 9090.0,
-        "last_price": 9350.0,
-        "change_pct": 2.86
-      },
-      {
-        "symbol": "124500",
-        "market": "KR",
-        "signal_price": 30850.0,
-        "last_price": 32700.0,
-        "change_pct": 6.0
-      }
-    ]
+    "verdict": null,
+    "agg": null,
+    "rows": []
   },
-  "skipped_all_count": 17
+  "skipped_all_count": 0
 }
