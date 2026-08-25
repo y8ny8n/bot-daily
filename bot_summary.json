@@ -1,59 +1,59 @@
 {
-  "generated_at": "2026-08-25 06:19 KST",
-  "as_of_trading_day": "2026-08-25",
+  "generated_at": "2026-08-26 06:18 KST",
+  "as_of_trading_day": "2026-08-26",
   "mode": "live",
   "regime": "IDLE",
-  "held": 25,
+  "held": 21,
   "kill_switch": 0,
-  "total_pnl": -183411.0,
-  "day_change": 821,
-  "win_rate": 43.6,
-  "open_positions": 35,
+  "total_pnl": -186548.0,
+  "day_change": 7253,
+  "win_rate": 43.5,
+  "open_positions": 31,
   "skipped_kr": {
     "verdict": "캡 때문에 기회 놓침 (못 산 종목 평균 상승)",
     "agg": {
       "count": 3,
-      "up": 2,
-      "down": 1,
-      "avg_pct": 2.04,
+      "up": 3,
+      "down": 0,
+      "avg_pct": 2.4,
       "worst": {
-        "symbol": "198440",
+        "symbol": "376900",
         "market": "KR",
-        "signal_price": 1237.0,
-        "last_price": 1228.0,
-        "change_pct": -0.73
+        "signal_price": 26700.0,
+        "last_price": 27200.0,
+        "change_pct": 1.87
       },
       "best": {
-        "symbol": "303030",
+        "symbol": "187660",
         "market": "KR",
-        "signal_price": 1909.0,
-        "last_price": 2005.0,
-        "change_pct": 5.03
+        "signal_price": 3395.0,
+        "last_price": 3505.0,
+        "change_pct": 3.24
       }
     },
     "rows": [
       {
-        "symbol": "198440",
+        "symbol": "376900",
         "market": "KR",
-        "signal_price": 1237.0,
-        "last_price": 1228.0,
-        "change_pct": -0.73
+        "signal_price": 26700.0,
+        "last_price": 27200.0,
+        "change_pct": 1.87
       },
       {
-        "symbol": "025560",
+        "symbol": "320000",
         "market": "KR",
-        "signal_price": 7120.0,
-        "last_price": 7250.0,
-        "change_pct": 1.83
+        "signal_price": 9100.0,
+        "last_price": 9290.0,
+        "change_pct": 2.09
       },
       {
-        "symbol": "303030",
+        "symbol": "187660",
         "market": "KR",
-        "signal_price": 1909.0,
-        "last_price": 2005.0,
-        "change_pct": 5.03
+        "signal_price": 3395.0,
+        "last_price": 3505.0,
+        "change_pct": 3.24
       }
     ]
   },
-  "skipped_all_count": 3
+  "skipped_all_count": 4
 }
