@@ -1,66 +1,45 @@
 {
-  "generated_at": "2026-08-28 14:01 KST",
-  "as_of_trading_day": "2026-08-28",
+  "generated_at": "2026-08-29 11:56 KST",
+  "as_of_trading_day": "2026-08-29",
   "mode": "live",
-  "regime": "MEAN_REVERSION",
-  "held": 18,
+  "regime": "IDLE",
+  "held": 20,
   "kill_switch": 0,
-  "total_pnl": -142016.0,
-  "day_change": 907,
+  "total_pnl": -138703.0,
+  "day_change": 3108,
   "win_rate": 43.9,
-  "open_positions": 28,
+  "open_positions": 30,
   "skipped_kr": {
     "verdict": "캡이 손실을 막아줌 (못 산 종목 평균 하락)",
     "agg": {
-      "count": 4,
-      "up": 2,
-      "down": 2,
-      "avg_pct": -0.2,
+      "count": 1,
+      "up": 0,
+      "down": 1,
+      "avg_pct": -0.17,
       "worst": {
-        "symbol": "397030",
-        "market": "KR",
-        "signal_price": 19180.0,
-        "last_price": 18660.0,
-        "change_pct": -2.71
-      },
-      "best": {
-        "symbol": "376900",
-        "market": "KR",
-        "signal_price": 27400.0,
-        "last_price": 27850.0,
-        "change_pct": 1.64
-      }
-    },
-    "rows": [
-      {
-        "symbol": "397030",
-        "market": "KR",
-        "signal_price": 19180.0,
-        "last_price": 18660.0,
-        "change_pct": -2.71
-      },
-      {
         "symbol": "298000",
         "market": "KR",
         "signal_price": 58700.0,
         "last_price": 58600.0,
         "change_pct": -0.17
       },
-      {
-        "symbol": "458870",
+      "best": {
+        "symbol": "298000",
         "market": "KR",
-        "signal_price": 21900.0,
-        "last_price": 22000.0,
-        "change_pct": 0.46
-      },
+        "signal_price": 58700.0,
+        "last_price": 58600.0,
+        "change_pct": -0.17
+      }
+    },
+    "rows": [
       {
-        "symbol": "376900",
+        "symbol": "298000",
         "market": "KR",
-        "signal_price": 27400.0,
-        "last_price": 27850.0,
-        "change_pct": 1.64
+        "signal_price": 58700.0,
+        "last_price": 58600.0,
+        "change_pct": -0.17
       }
     ]
   },
-  "skipped_all_count": 5
+  "skipped_all_count": 2
 }
