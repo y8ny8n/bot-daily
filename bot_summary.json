@@ -1,66 +1,52 @@
 {
-  "generated_at": "2026-09-09 08:03 KST",
-  "as_of_trading_day": "2026-09-09",
+  "generated_at": "2026-09-10 07:50 KST",
+  "as_of_trading_day": "2026-09-10",
   "mode": "live",
   "regime": "IDLE",
-  "held": 24,
+  "held": 23,
   "kill_switch": 0,
-  "total_pnl": -38040.0,
-  "day_change": 1982,
-  "win_rate": 44.7,
-  "open_positions": 34,
+  "total_pnl": -47296.0,
+  "day_change": 745,
+  "win_rate": 44.6,
+  "open_positions": 33,
   "skipped_kr": {
     "verdict": "캡이 손실을 막아줌 (못 산 종목 평균 하락)",
     "agg": {
-      "count": 4,
+      "count": 2,
       "up": 1,
-      "down": 3,
-      "avg_pct": -0.64,
+      "down": 1,
+      "avg_pct": -0.99,
       "worst": {
-        "symbol": "298000",
+        "symbol": "230240",
         "market": "KR",
-        "signal_price": 60000.0,
-        "last_price": 58100.0,
-        "change_pct": -3.17
+        "signal_price": 12220.0,
+        "last_price": 11900.0,
+        "change_pct": -2.62
       },
       "best": {
-        "symbol": "043260",
+        "symbol": "160980",
         "market": "KR",
-        "signal_price": 16100.0,
-        "last_price": 16550.0,
-        "change_pct": 2.8
+        "signal_price": 23400.0,
+        "last_price": 23550.0,
+        "change_pct": 0.64
       }
     },
     "rows": [
       {
-        "symbol": "298000",
+        "symbol": "230240",
         "market": "KR",
-        "signal_price": 60000.0,
-        "last_price": 58100.0,
-        "change_pct": -3.17
+        "signal_price": 12220.0,
+        "last_price": 11900.0,
+        "change_pct": -2.62
       },
       {
-        "symbol": "347700",
+        "symbol": "160980",
         "market": "KR",
-        "signal_price": 20500.0,
-        "last_price": 20200.0,
-        "change_pct": -1.46
-      },
-      {
-        "symbol": "085620",
-        "market": "KR",
-        "signal_price": 20150.0,
-        "last_price": 20000.0,
-        "change_pct": -0.74
-      },
-      {
-        "symbol": "043260",
-        "market": "KR",
-        "signal_price": 16100.0,
-        "last_price": 16550.0,
-        "change_pct": 2.8
+        "signal_price": 23400.0,
+        "last_price": 23550.0,
+        "change_pct": 0.64
       }
     ]
   },
-  "skipped_all_count": 4
+  "skipped_all_count": 3
 }
