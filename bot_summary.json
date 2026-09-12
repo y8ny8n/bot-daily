@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12 07:53 KST",
+  "generated_at": "2026-09-13 07:42 KST",
   "as_of_trading_day": "2026-09-12",
   "mode": "live",
   "regime": "IDLE",
@@ -10,36 +10,9 @@
   "win_rate": 44.6,
   "open_positions": 34,
   "skipped_kr": {
-    "verdict": "캡이 손실을 막아줌 (못 산 종목 평균 하락)",
-    "agg": {
-      "count": 1,
-      "up": 0,
-      "down": 1,
-      "avg_pct": -0.22,
-      "worst": {
-        "symbol": "085910",
-        "market": "KR",
-        "signal_price": 13350.0,
-        "last_price": 13320.0,
-        "change_pct": -0.22
-      },
-      "best": {
-        "symbol": "085910",
-        "market": "KR",
-        "signal_price": 13350.0,
-        "last_price": 13320.0,
-        "change_pct": -0.22
-      }
-    },
-    "rows": [
-      {
-        "symbol": "085910",
-        "market": "KR",
-        "signal_price": 13350.0,
-        "last_price": 13320.0,
-        "change_pct": -0.22
-      }
-    ]
+    "verdict": null,
+    "agg": null,
+    "rows": []
   },
-  "skipped_all_count": 1
+  "skipped_all_count": 0
 }
