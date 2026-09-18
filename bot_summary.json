@@ -1,45 +1,18 @@
 {
-  "generated_at": "2026-09-18 08:15 KST",
-  "as_of_trading_day": "2026-09-18",
+  "generated_at": "2026-09-19 07:54 KST",
+  "as_of_trading_day": "2026-09-19",
   "mode": "live",
   "regime": "IDLE",
-  "held": 22,
+  "held": 23,
   "kill_switch": 0,
-  "total_pnl": -41372.0,
-  "day_change": 43,
+  "total_pnl": -55594.0,
+  "day_change": -1223,
   "win_rate": 44.6,
-  "open_positions": 30,
+  "open_positions": 32,
   "skipped_kr": {
-    "verdict": "캡 때문에 기회 놓침 (못 산 종목 평균 상승)",
-    "agg": {
-      "count": 1,
-      "up": 1,
-      "down": 0,
-      "avg_pct": 2.15,
-      "worst": {
-        "symbol": "491000",
-        "market": "KR",
-        "signal_price": 27950.0,
-        "last_price": 28550.0,
-        "change_pct": 2.15
-      },
-      "best": {
-        "symbol": "491000",
-        "market": "KR",
-        "signal_price": 27950.0,
-        "last_price": 28550.0,
-        "change_pct": 2.15
-      }
-    },
-    "rows": [
-      {
-        "symbol": "491000",
-        "market": "KR",
-        "signal_price": 27950.0,
-        "last_price": 28550.0,
-        "change_pct": 2.15
-      }
-    ]
+    "verdict": null,
+    "agg": null,
+    "rows": []
   },
-  "skipped_all_count": 4
+  "skipped_all_count": 3
 }
