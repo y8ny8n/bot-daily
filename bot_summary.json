@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-24 08:19 KST",
-  "as_of_trading_day": "2026-09-24",
+  "generated_at": "2026-09-25 08:40 KST",
+  "as_of_trading_day": "2026-09-25",
   "mode": "live",
   "regime": "IDLE",
   "held": 22,
   "kill_switch": 0,
-  "total_pnl": -119035.0,
-  "day_change": -3257,
+  "total_pnl": -111248.0,
+  "day_change": -695,
   "win_rate": 44.8,
   "open_positions": 31,
   "skipped_kr": {
@@ -17,26 +17,26 @@
       "down": 1,
       "avg_pct": 0.0,
       "worst": {
-        "symbol": "298380",
+        "symbol": "012330",
         "market": "KR",
-        "signal_price": 50600.0,
-        "last_price": 50600.0,
+        "signal_price": 369000.0,
+        "last_price": 369000.0,
         "change_pct": 0.0
       },
       "best": {
-        "symbol": "298380",
+        "symbol": "012330",
         "market": "KR",
-        "signal_price": 50600.0,
-        "last_price": 50600.0,
+        "signal_price": 369000.0,
+        "last_price": 369000.0,
         "change_pct": 0.0
       }
     },
     "rows": [
       {
-        "symbol": "298380",
+        "symbol": "012330",
         "market": "KR",
-        "signal_price": 50600.0,
-        "last_price": 50600.0,
+        "signal_price": 369000.0,
+        "last_price": 369000.0,
         "change_pct": 0.0
       }
     ]
