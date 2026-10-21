@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-21 08:31 KST",
-  "as_of_trading_day": "2026-10-21",
+  "generated_at": "2026-10-22 08:47 KST",
+  "as_of_trading_day": "2026-10-22",
   "mode": "live",
   "regime": "IDLE",
   "held": 18,
   "kill_switch": 0,
-  "total_pnl": -310298.0,
-  "day_change": 5050,
+  "total_pnl": -300607.0,
+  "day_change": 3145,
   "win_rate": 44.5,
   "open_positions": 28,
   "skipped_kr": {
@@ -14,5 +14,5 @@
     "agg": null,
     "rows": []
   },
-  "skipped_all_count": 3
+  "skipped_all_count": 1
 }
