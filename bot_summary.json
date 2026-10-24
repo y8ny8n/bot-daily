@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24 08:39 KST",
+  "generated_at": "2026-10-25 07:46 KST",
   "as_of_trading_day": "2026-10-24",
   "mode": "live",
   "regime": "IDLE",
@@ -14,5 +14,5 @@
     "agg": null,
     "rows": []
   },
-  "skipped_all_count": 1
+  "skipped_all_count": 0
 }
